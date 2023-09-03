@@ -202,15 +202,15 @@ translations:
   - key: forms.select_option
     t: Вибрати варіант
   - key: forms.clear_field
-    t: Clear question
+    t: Очистити питання
   - key: forms.more_options
-    t: Show more…
+    t: Показати більше…
   - key: forms.less_options
-    t: Show less
+    t: Показати менше
 
   # partners & sponsors
   - key: sponsors.with_support_from
-    t: With Special Support From
+    t: Особлива вдячні за підтримку від
   - key: sponsors.our_partners
     t: Наші партнери
   - key: sponsors.become_partner
@@ -230,13 +230,13 @@ translations:
   - key: general.charts_nivo
     t: Візуалізація даних зроблена за допомогою <a href="{link}">Nivo</a>.
   - key: general.made_by_devographics
-    t: Made by <a href="{link}">Devographics</a>
+    t: Зроблено командою <a href="{link}">Devographics</a>
   - key: general.view_code_example
-    t: View Code Example
+    t: Переглянути Приклад Коду
   - key: general.feature_code_example
-    t: "**{featureName}** Code Example"
+    t: "**{featureName}** Приклад Коду"
   - key: general.code_example
-    t: Code Example
+    t: Приклад Коду
 
   ###########################################################################
   # Nav
@@ -264,33 +264,33 @@ translations:
   - key: sections.resources.title
     t: Ресурси
   - key: sections.resources.description
-    t: До яких ресурсів по {topic} ви звертаєтеся?
+    t: До яких тематичних ресурсів ви звертаєтеся?
 
   - key: sections.opinions.title
     t: Погляди
   - key: sections.opinions.description
-    t: Що ви думаєте про загальний стан {topic}?
+    t: Як ви ставетеся до поточного стану мови?
 
   - key: sections.other_tools.title
     t: Інші інструменти
   - key: sections.other_tools.description
-    t: Які з представлених інструментів і технологій ви регулярно використовуєте.
+    t: Які з представлених інструментів і технологій ви регулярно використовуєте, позначте лише ті, якими користуєтесь регулярно.
   - key: section.tools_others.title
     aliasFor: section.other_tools.title
   - key: section.tools_others.description
     aliasFor: section.other_tools.description
 
   - key: sections.report.title
-    t: Trend Report
+    t: Звіт про тренди
 
   - key: sections.usage.title
-    t: Usage
+    t: Використання
 
   - key: sections.finish.title
-    t: Finish Survey
+    t: Завершити Опитування
 
   - key: sections.finish.description
-    t: Finish the survey
+    t: Завершити поточне опитування
 
   ###########################################################################
   # Options
@@ -298,55 +298,55 @@ translations:
 
   # other answer
   - key: options.other
-    t: Other…
+    t: Інше…
   - key: options.other.placeholder
-    t: Other items not mentioned above, comma-separated
+    t: Інші речі, не згадані вище, розділені комою
 
   # features
   - key: options.features.never_heard
-    t: 🤷 Вперше чую/Не впевнений, що це
+    t: <span aria-hidden="true">🤷</span> Вперше чую/Не впевнений, що це
   - key: options.features.heard
-    t: ✅ Знаю, але не використовував
+    t: <span aria-hidden="true">✅</span> Знаю що це, але не використовував
   - key: options.features.used
-    t: 👍 Використовував
+    t: <span aria-hidden="true">👍</span> Використовував
 
   # features v2
   - key: options.features2.never_heard
-    t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
+    t: <span class="option-chip option-main option-main-never_heard">Вперше чую/Не впевнений, що це</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Would like to learn</span>
+      <span class="option-chip option-main option-main-heard">Чув про це</span> » <span class="option-chip option-positive">Хочу вивчити</span>
   - key: options.features2.not_interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
+      <span class="option-chip option-main option-main-heard">Чув про це</span> » <span class="option-chip option-negative">Не цікавить</span>
   - key: options.features2.used_positive
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Had an overall positive experience</span>
+      <span class="option-chip option-main option-main-used">Використовував</span> » <span class="option-chip option-positive">Загалом враження позитивне</span>
   - key: options.features2.used_negative
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Had an overall negative experience</span>
+      <span class="option-chip option-main option-main-used">Використовував</span> » <span class="option-chip option-negative">Загалом враження негативне</span>
 
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Never heard of it
+    t: <span aria-hidden="true">🤷</span> Вперше чую
   - key: options.features.heard.short
-    t: <span aria-hidden="true">✅</span> Know what it is
+    t: <span aria-hidden="true">✅</span> Знаю що це
   - key: options.features.used.short
-    t: <span aria-hidden="true">👍</span> I've used it
+    t: <span aria-hidden="true">👍</span> Використовував
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: Never heard of it/Not sure what it is
+    t: Вперше чую/Не впевнений, що це
   - key: options.features.heard.label
-    t: Know what it is, but haven't used it
+    t: Знаю що це, але не використовував
   - key: options.features.used.label
-    t: I've used it
+    t: Використовував
 
   # features (no emoji, short versions)
   - key: options.features.never_heard.short
     t: Вперше чую
   - key: options.features.heard.short
-    t: Знаю
+    t: Знаю що це
   - key: options.features.used.short
     t: Використовував
 
@@ -364,15 +364,15 @@ translations:
 
   # tools experience
   - key: options.tools.never_heard
-    t: 🤷 Вперше чую/Не впевнений, що це
+    t: <span aria-hidden="true">🤷</span> Вперше чую/Не впевнений, що це
   - key: options.tools.interested
-    t: ✅ Чув про це > Хочу вивчити
+    t: <span aria-hidden="true">✅</span> Чув про це > Хочу вивчити
   - key: options.tools.not_interested
-    t: 🚫 Чув про це > Не цікаво
+    t: <span aria-hidden="true">🚫</span> Чув про це > Не цікавить
   - key: options.tools.would_use
-    t: 👍 Використовував > Буду використовувати знову
+    t: <span aria-hidden="true">👍</span> Використовував > Буду використовувати знову
   - key: options.tools.would_not_use
-    t: 👎 Використовував > Більше не буду використовувати
+    t: <span aria-hidden="true">👎</span> Використовував > Більше не буду використовувати
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
@@ -380,7 +380,7 @@ translations:
   - key: options.tools.interested.legend
     t: Чув про це > Хочу вивчити
   - key: options.tools.not_interested.legend
-    t: Чув про це > Не цікаво
+    t: Чув про це > Не цікавить
   - key: options.tools.would_use.legend
     t: Використовував > Буду використовувати знову
   - key: options.tools.would_not_use.legend
@@ -394,9 +394,9 @@ translations:
   - key: options.tools.not_interested.short
     t: Не цікаво
   - key: options.tools.would_use.short
-    t: Буду ще використовувати
+    t: Буду використовувати знову
   - key: options.tools.would_not_use.short
-    t: Не буду більше використовувати
+    t: Більше не буду використовувати
 
   # happiness
   - key: options.happiness.0
@@ -404,7 +404,7 @@ translations:
   - key: options.happiness.1
     t: Не задоволений
   - key: options.happiness.2
-    t: Важко відповісти
+    t: Ставлюся нейтрально
   - key: options.happiness.3
     t: Задоволений
   - key: options.happiness.4
@@ -416,7 +416,7 @@ translations:
   - key: options.happiness.1.short
     t: Не задоволений
   - key: options.happiness.2.short
-    t: Важко відповісти
+    t: Ставлюся нейтрально
   - key: options.happiness.3.short
     t: Задоволений
   - key: options.happiness.4.short
@@ -428,7 +428,7 @@ translations:
   - key: options.opinions.1
     t: Не згоден
   - key: options.opinions.2
-    t: Важко сказати
+    t: Ставлюся нейтрально
   - key: options.opinions.3
     t: Згоден
   - key: options.opinions.4
